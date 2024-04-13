@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(55, 56, 70);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width:40%;
+    background-color: white;
+    border-radius: 10px;
+    height: 70%;
+    font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    box-shadow: 10px 10px 10px 10px;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    width:100%;
+    justify-content: space-evenly
+
+   
+}
+.right{
+
+    width: 40%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left{
+    width:40%;
+    height:80%;
+    border-radius: 8px;
+
+}
+
+#background-left{
+    background-image: url('sidepic.jpeg'); /* Replace 'your_image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* Centers the child elements horizontally */
+    align-items: center; /* Centers the child elements vertically */
+    padding: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 85%; 
+    transition: 0.3s;
+
+   
+}
+.links a{
+    text-decoration: none;
+    padding:10px;
+    background-color: rgba(214, 214, 214, 0.5);
+    margin-top: 10px;
+    border-radius: 8px;
+    color:black;
+    text-align: center;
+  
+    
+
+}
+
+.links a:hover{
+    width: 95%;
+    height: 40px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+    </style>
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="page">
+            <div class="right">
+                <h1>Welcome to <br>Chatbot</h1>
+                <a href="home.html" target="_blank">Start conversation</a>
+            </div>
+
+            <div class="left" id="background-left">
+                <div class="links">
+                        <a href="#">Health Care Tips</a>
+                        <a href="#">Emergency helpline</a>
+                        <a href="#">Contact us</a>
+                        <a href="#">About</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

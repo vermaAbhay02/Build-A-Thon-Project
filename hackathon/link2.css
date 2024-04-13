@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(55, 56, 70);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+   font-style: normal;
+   font-variation-settings:"slnt" 0;
+   
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.box{
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+.content{
+    padding-right:10px;
+}
+.content ul li{
+    padding-top: 5px;
+}
